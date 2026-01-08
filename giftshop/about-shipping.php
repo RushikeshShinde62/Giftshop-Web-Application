@@ -11,7 +11,7 @@
   <?Php include('include/header.php');?>
   <style>
 	   .newStyle6
-        {
+        { 
             
             font-size:16px;
 			font-family:"Times New Roman", Times, serif;
