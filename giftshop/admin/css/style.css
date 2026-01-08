@@ -1,0 +1,87 @@
+body{background-color:#F3F3F3;color:#363d40;float:left;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;margin:0;padding:0;width:100%;word-wrap:word-wrap;}
+html,div,a,p,span,img,h1,h2,h3,h4,h5,h6,ul,li,ol,label,form,pre{border:none;list-style-type:none;margin:0;outline:none;padding:0;text-decoration:none;}
+h3{color:#F00;text-align:center;padding:10px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#main-nav{font-family:Verdana, Geneva, sans-serif, Arial, sans-serif;font-size:12px;font-weight:700;float:left;margin:0;padding:0;width:22em;}
+#main-nav .main-image{color:#666;padding:5px;text-align:center;}
+#main-nav .main-head{font-size:12px;font-weight:bolder;color:#444;height:17px;padding:5px;text-align:center;background-image:url(../images/table_header_s.gif);}
+#main-nav .main-mid{margin:0;padding:15px;width:240px;}
+#main-nav .main-mid ul{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:13px;list-style:none;margin:0;padding:0;}
+#main-nav .main-mid li{border-bottom-color:#999;border-bottom-style:dashed;border-bottom-width:1px;font-size:70%;list-style:none;maring:0;padding:8px 0;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.form-table{border-collapse:collapse;font-family:Verdana, Geneva, sans-serif, Arial, sans-serif;font-size:11px;}
+.form-table th{color:#21759b;font-size:11px;height:25px;padding:4px;text-align:right;vertical-align:top;width:150px;}
+.form-table td{border:0px solid #D4E0EE;font-size:11px;padding:4px;vertical-align:top;}
+.form-table tr td{padding:4px 4px 2px;}
+.form-table .text{border:1px solid #ddd;padding:3px;width:200px;}
+.form-table .date{border:1px solid #ddd;padding:3px;width:200px;}
+.form-table .textarea{border:1px solid #ddd;height:50px;padding:3px;width:200px;}
+.form-table .select{background:#fff url(../images/form_input.gif) repeat-x;border:1px solid #ddd;padding:2px;width:200px;}
+.form-table .button{-moz-border-radius:4px;-webkit-border-radius:4px;background:url(../images/bg-button.png) repeat-x;border:1px solid #bbb;border-radius:4px;color:#666363;cursor:pointer;font-size:14px;font-weight:700;height:28px;margin:0;padding:0 15px;text-align:center;width:90px;}
+.form-table .button:hover{background-position:bottom;border:1px solid #2388cc;color:#FFF}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.table_list{font-family:Verdana, Geneva, sans-serif, Arial, sans-serif;border-collapse:collapse;color:#555;}
+.table_head{background-image:url(../images/table_header_s.gif);height:27px;}
+.table_list th{background:#ececec;border:0 solid #D4E0EE;color:#21759b;cursor:pointer;font-size:11px;height:25px;padding:4px;text-align:left;}
+.table_list td{background:#FFF;border:1px solid #D4E0EE;font-size:11px;padding:4px;vertical-align:top;}
+.table_list a:hover{color:#718ABE;text-decoration:underline;}
+.table_list tr td{padding:6px 4px;}
+.table_list a:link,.table_list a:visited{color:#718ABE;text-decoration:none;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.action{text-align:center;white-space:nowrap;width:1%;}
+.action a,a.delete-me{display:inline-block;float:none;height:20px;margin-right:5px;width:20px;}
+.action a.view{background:url(../images/ico-view.png) no-repeat;}
+.action a.edit{background:url(../images/ico-edit.png) no-repeat;}
+.action a.archive{background:url(../images/ico-archive.png) no-repeat;}
+.action a.restore{background:url(../images/ico-restore.png) no-repeat;}
+.action a.delete,a.delete-me{background:url(../images/ico-delete.png) no-repeat;}
+.action a.restore:hover{background-position:0 0;}
+.action a:hover{background-position:0 -20px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#table-pagging{background-image:url(../images/table_header_s.gif);font-weight:700;height:30px;line-height:30px;text-align:left;width:100%;}
+#table-pagging a.current{background:#1C96C3;color:#FFF;float:left;font-weight:700;height:17px;width:25px;line-height:16px;text-align:center;}
+#table-pagging .paging{color:#000;float:right;font-weight:700;margin:5px;width:150px;}
+#table-pagging .showof,.jump,.item{color:#000;float:left;color:#21759b;min-width:150px;border:0px solid #036;font-size:11px; }
+#table-pagging a.first{background:url(../images/active-first.jpg);float:left;height:17px;width:22px;}
+#table-pagging span.first{background:url(../images/deactive-first.jpg);float:left;height:17px;width:24px;}
+#table-pagging .paging a.last{background:url(../images/active-last.jpg);float:left;height:17px;width:22px;}
+#table-pagging .paging span.last{background:url(../images/deactive-last.jpg);float:left;height:17px;width:24px;}
+#table-pagging .paging a.next{background:url(../images/active-next.jpg);float:left;height:17px;width:24px;}
+#table-pagging .paging span.next{background:url(../images/deactive-next.jpg);float:left;height:17px;width:24px;}
+#table-pagging .paging a.previous{background:url(../images/active-previous.jpg);float:left;height:17px;width:24px;}
+#table-pagging .paging span.previous{background:url(../images/deactive-previous.jpg);float:left;height:17px;width:24px;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.table_view{border-collapse:collapse;color:#555;font-family:Verdana, Geneva, sans-serif, Arial, sans-serif;font-size:11px;}
+.table_view th{background:#ececec;border:0 solid #D4E0EE;color:#21759b;cursor:pointer;font-size:11px;height:25px;padding:4px;text-align:right;vertical-align:top;width:150px;}
+.table_view td{border:1px solid #D4E0EE;font-size:11px;padding:4px;vertical-align:top;}
+.table_view a:hover{color:#718ABE;text-decoration:underline;}
+.table_view tr td{padding:6px 4px;}
+.table_view a:link,.table_view a:visited{color:#718ABE;text-decoration:none;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.loading-indicator{background:url(../images/loading.gif);background-position:center center;background-repeat:no-repeat;height:80px;width:80px;}
+.loading-indicator-overlay{background-color:#FFF;filter:alpha(opacity=60);opacity:0.6;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#response{color:#7ab443;display:none;}
+p.error,p.e{display:block; text-align:center; color:#F00; font-size:12px;}
+p.e{text-align:left;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.error-notice,.answers-notice,.warn-notice,.info-notice,.success-notice,#failure{-cp-background-image:linear-gradient(#fbfbfb,#e5e5e530px);-khtml-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;background-color:#e5e5e5;background-image:linear-gradient(#fbfbfb,#e5e5e530px);border-radius:3px;color:#444;filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#fbfbfb,endColorStr=#e5e5e5);font-size:12px;font-weight:700;padding:5px 5px 8px;text-shadow:0 1px 0 #fff;}
+.error-notice,#failure{border:2px solid #C43335;}
+.warn-notice,.answers-notice{border:2px solid #faa661;}
+.info-notice{border:2px solid #3E7F99;}
+.success-notice{border:2px solid #7ab443;}
+#login-status .login-status-icon{display:block;height:21px;position:absolute;width:21px;}
+#login-status.error-notice .login-status-icon{background-image:url(../images/notice-error.png);}
+#login-status.info-notice .login-status-icon{background-image:url(../images/notice-info.png);}
+#login-status.success-notice .login-status-icon{background-image:url(../images/notice-success.png);}
+#login-status.warn-notice .login-status-icon{background-image:url(../images/warning.png);}
+#failure{margin:45px auto;width:365px;}
+#login-status-message{padding-left:30px;padding-top:3px;text-align:left;}
+html[dir=rtl] #login-status-message{padding-left:0;padding-right:30px;}
+
+div.welcome-text{float:left; left:50%; margin-left:-200px; position:absolute; text-align:center; top:60px; width:400px; font-weight:bold; color:#FFF;}
+div.last-session{float:left; position:absolute; right:10px; top:10px;color:#fff;}
+div.welcome-text a{color:#FFF;}
+a.btn-setting{color:#FFFFFF; float:left; font-weight:bold; position:absolute; right:90px; top:60px;}
+a.btn-logout{color:#FFFFFF; float:left; font-weight:bold; position:absolute; right:10px; top:60px;}
+div.last-session p{ display:inline-block; margin-left:10px; color:#000; font-weight:bold;}
