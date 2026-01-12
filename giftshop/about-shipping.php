@@ -10,7 +10,7 @@
 <div id="main_container">
   <?Php include('include/header.php');?>
   <style>
-	   .newStyle6
+	   .newStyle6 
         { 
             
             font-size:16px;
